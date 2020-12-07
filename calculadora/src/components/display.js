@@ -6,7 +6,7 @@ class Display extends Component {
   render() {
     return ( <
       div className = {
-        "display borderBlack"
+        "display"
       } > {
         this.props.value
       } <
